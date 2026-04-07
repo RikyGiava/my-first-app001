@@ -1,6 +1,3 @@
 import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("MY WEB APPLICATION")
+st.text("Yeh, this is really my first app",text_alignment="right")
