@@ -174,7 +174,7 @@ with tab3:
         
         # Taratura corretta dell'asse Y (che nel tuo codice tagliava le colonne)
         max_impulse = max(impulses)
-        fig_steps.update_yaxes(title_text="Impulse (N·s)", secondary_y=False, showgrid=False, rangemode="tozero", range=[0, max_impulse * 1.5])
+        fig_steps.update_yaxes(title_text="Impulse (N·s)", secondary_y=False, showgrid=False, rangemode="tozero", range=[0.95* max_impulse, max_impulse * 1.05])
         
         min_ct, max_ct = min(contact_times), max(contact_times)
         fig_steps.update_yaxes(title_text="Contact Time (ms)", secondary_y=True, showgrid=False, range=[min_ct * 0.95, max_ct * 1.05])
